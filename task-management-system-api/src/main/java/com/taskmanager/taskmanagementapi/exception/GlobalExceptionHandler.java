@@ -94,9 +94,15 @@ public class GlobalExceptionHandler {
             org.springframework.http.converter.HttpMessageNotReadableException ex,
             HttpServletRequest request) {
 
+        String exactError = ex.getMostSpecificCause() != null ? ex.getMostSpecificCause().getMessage() : ex.getMessage();
+        // Truncate if it's too long
+        if (exactError != null && exactError.length() > 250) {
+            exactError = exactError.substring(0, 250) + "...";
+        }
+
         ErrorResponse errorResponse = ErrorResponse.builder()
                 .status(HttpStatus.BAD_REQUEST.value())
-                .message("Malformed JSON request or invalid data format. Please check your enum values and syntax.")
+                .message("Malformed JSON request: " + exactError)
                 .error("Bad Request")
                 .timestamp(LocalDateTime.now())
                 .path(request.getRequestURI())
