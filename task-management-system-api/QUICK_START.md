@@ -148,7 +148,7 @@ mvn test -Dcoverage
 
 ```
 task-management-system-api/
-├── src/main/java/com/taskmanager/task_management_system_api/
+├── src/main/java/com/taskmanager/taskmanagementapi/
 │   ├── controller/          ← REST Endpoints
 │   ├── service/             ← Business Logic
 │   ├── repository/          ← Data Access (In-Memory)

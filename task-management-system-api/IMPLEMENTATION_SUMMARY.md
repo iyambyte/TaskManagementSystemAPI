@@ -79,7 +79,7 @@ A complete, production-ready REST API for task management using Spring Boot 3.5.
 ## 📁 Project Structure Created
 
 ```
-src/main/java/com/taskmanager/task_management_system_api/
+src/main/java/com/taskmanager/taskmanagementapi/
 ├── TaskManagementSystemApiApplication.java    (Main App)
 ├── controller/
 │   └── TaskController.java                    (REST Endpoints)
@@ -105,7 +105,7 @@ src/main/java/com/taskmanager/task_management_system_api/
 └── util/
     └── ValidationUtil.java                    (Validation Helper)
 
-src/test/java/com/taskmanager/task_management_system_api/
+src/test/java/com/taskmanager/taskmanagementapi/
 ├── service/
 │   └── TaskServiceTest.java                   (Unit Tests)
 └── controller/

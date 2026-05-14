@@ -98,7 +98,7 @@ task-management-system-api/
 │   │   ├── java/
 │   │   │   └── com/
 │   │   │       └── taskmanager/
-│   │   │           └── task_management_system_api/
+│   │   │           └── taskmanagementapi/
 │   │   │               ├── TaskManagementSystemApiApplication.java
 │   │   │               ├── config/
 │   │   │               │   └── AppConfig.java
@@ -129,7 +129,7 @@ task-management-system-api/
 │       └── java/
 │           └── com/
 │               └── taskmanager/
-│                   └── task_management_system_api/
+│                   └── taskmanagementapi/
 │                       ├── service/
 │                       │   └── TaskServiceTest.java
 │                       └── controller/

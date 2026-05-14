@@ -19,7 +19,7 @@ The Task Management System API provides a complete backend solution for managing
 ```
 src/
 ├── main/
-│   ├── java/com/taskmanager/task_management_system_api/
+│   ├── java/com/taskmanager/taskmanagementapi/
 │   │   ├── controller/          # REST Controllers
 │   │   ├── service/             # Business Logic Layer
 │   │   ├── repository/          # Data Access Layer (In-Memory)
@@ -32,7 +32,7 @@ src/
 │   └── resources/
 │       └── application.properties
 └── test/
-    └── java/com/taskmanager/task_management_system_api/
+    └── java/com/taskmanager/taskmanagementapi/
         ├── service/             # Unit Tests
         └── controller/          # Integration Tests
 ```
@@ -495,7 +495,7 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ## Author
 
-Your Name <your.email@example.com>
+S KAMALESH KUMAR - skamaleshkumar25082000@gmail.com
 
 ## Support
 
